@@ -1,0 +1,15 @@
+{
+  "name": "Automotive Luxe",
+  "short_name": "Auto Luxe",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#0A0A0B",
+  "background_color": "#0A0A0B",
+  "display": "standalone"
+}

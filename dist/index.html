@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automotive Luxe | Oficina premium por Novyra Studio</title>
+    <meta name="description" content="Website premium para oficinas mecanicas: servicos, orcamento por WhatsApp, consentimento de privacidade e experiencia automotiva sofisticada.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://example.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Automotive Luxe | Oficina premium">
+    <meta property="og:description" content="Manutencao especializada, diagnostico preciso e transparencia em cada etapa.">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=78">
+    <meta name="theme-color" content="#0A0A0B">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <script type="module" src="./src/scripts/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteudo</a>
+
+    <header class="site-header" data-site-header>
+      <a class="brand" href="#inicio" aria-label="Voltar para o inicio">
+        <span class="brand__mark" aria-hidden="true">AL</span>
+        <span class="brand__text" data-brand-name>Automotive Luxe</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegacao principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicos">Servicos</a>
+        <a href="#sobre">Sobre a oficina</a>
+        <a href="#estrutura">Estrutura</a>
+        <a href="#avaliacoes">Avaliacoes</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="button button--small button--solid" type="button" data-open-quote>
+          Solicitar orcamento
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+          <span class="sr-only">Abrir menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Navegacao mobile" hidden data-mobile-menu>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicos">Servicos</a>
+      <a href="#sobre">Sobre a oficina</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#avaliacoes">Avaliacoes</a>
+      <a href="#contato">Contato</a>
+      <button class="button button--solid" type="button" data-open-quote>Solicitar orcamento</button>
+    </nav>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <picture class="hero__media" aria-hidden="true">
+          <source media="(max-width: 720px)" srcset="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?auto=format&fit=crop&w=900&q=74">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=82" alt="" fetchpriority="high" decoding="async">
+        </picture>
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__content section-shell">
+          <p class="eyebrow" data-reveal>ENGENHARIA AUTOMOTIVA • CUIDADO EM CADA DETALHE</p>
+          <h1 id="hero-title" data-reveal>Performance começa com cuidado.</h1>
+          <p class="hero__lead" data-reveal>Manutenção especializada, diagnóstico preciso e transparência em cada etapa para você dirigir com tranquilidade.</p>
+          <div class="hero__actions" data-reveal>
+            <button class="button button--solid" type="button" data-open-quote>Solicitar orçamento</button>
+            <a class="button button--ghost" href="#servicos">Explorar serviços</a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#diferenciais" aria-label="Ir para diferenciais">
+          <span aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="differentials" id="diferenciais" aria-label="Diferenciais demonstrativos">
+        <div class="section-shell">
+          <div class="differentials__grid" data-differentials></div>
+        </div>
+      </section>
+
+      <section class="section section--services" id="servicos" aria-labelledby="services-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">SERVICOS</p>
+            <h2 id="services-title">Precisão em cada serviço.</h2>
+            <p>Conhecimento técnico e cuidado para manter seu veículo em excelentes condições.</p>
+          </div>
+          <div class="services-grid" data-services></div>
+        </div>
+      </section>
+
+      <section class="section about" id="sobre" aria-labelledby="about-title">
+        <div class="section-shell about__grid">
+          <div class="about__media" data-reveal>
+            <img src="https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1200&q=76" alt="Profissional realizando manutencao em veiculo, imagem demonstrativa" loading="lazy" decoding="async">
+          </div>
+          <div class="about__copy" data-reveal>
+            <p class="eyebrow">SOBRE A OFICINA</p>
+            <h2 id="about-title">Excelência que você percebe em cada detalhe.</h2>
+            <div data-about-content></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process" aria-labelledby="process-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">ATENDIMENTO</p>
+            <h2 id="process-title">Do primeiro contato à confirmação, tudo com clareza.</h2>
+            <p>Preços, disponibilidade, diagnósticos e horários devem ser confirmados diretamente com a oficina.</p>
+          </div>
+          <ol class="process__grid" data-process></ol>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="estrutura" aria-labelledby="gallery-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">ESTRUTURA</p>
+            <h2 id="gallery-title">Um ambiente preparado para cuidar do seu veículo.</h2>
+            <p>Galeria demonstrativa com imagens editoriais substituíveis por fotografias autorizadas do cliente.</p>
+          </div>
+          <div class="gallery-grid" data-gallery></div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="avaliacoes" aria-labelledby="reviews-title" data-reviews-section>
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">AVALIACOES</p>
+            <h2 id="reviews-title">A confiança é construída em cada atendimento.</h2>
+            <p>Espaço preparado para avaliações reais, com fonte e autorização quando disponíveis.</p>
+          </div>
+          <div class="reviews__grid" data-reviews></div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-shell faq__grid">
+          <div class="section-heading">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-title">Perguntas frequentes.</h2>
+          </div>
+          <div class="faq-list" data-faq></div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato" aria-labelledby="contact-title">
+        <div class="section-shell contact__grid">
+          <div>
+            <p class="eyebrow">CONTATO</p>
+            <h2 id="contact-title">Solicite orientação para o seu veículo.</h2>
+            <p>Os canais abaixo vêm da configuração central. Campos não configurados ficam ocultos ou marcados como demonstrativos.</p>
+            <button class="button button--solid" type="button" data-open-quote>Solicitar orçamento</button>
+          </div>
+          <div class="contact-card" data-contact></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer__grid">
+        <div>
+          <a class="brand brand--footer" href="#inicio" aria-label="Voltar para o inicio">
+            <span class="brand__mark" aria-hidden="true">AL</span>
+            <span class="brand__text" data-brand-name>Automotive Luxe</span>
+          </a>
+          <p data-footer-description>Base premium reutilizavel para oficinas mecanicas, preparada para conteudo real do cliente.</p>
+        </div>
+        <nav aria-label="Links do rodape">
+          <h2>Mapa</h2>
+          <a href="#servicos">Servicos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#estrutura">Estrutura</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <nav aria-label="Servicos no rodape" data-footer-services>
+          <h2>Servicos</h2>
+        </nav>
+        <div>
+          <h2>Privacidade</h2>
+          <a href="./privacidade/index.html">Politica de privacidade</a>
+          <button class="footer-link" type="button" data-open-privacy-preferences>Preferências de privacidade</button>
+        </div>
+      </div>
+      <div class="footer__bottom section-shell">
+        <p>© <span data-current-year></span> <span data-brand-name>Automotive Luxe</span>. Todos os direitos reservados.</p>
+        <p>Projeto base por Novyra Studio.</p>
+      </div>
+    </footer>
+
+    <button class="whatsapp-float" type="button" data-whatsapp-float aria-label="Abrir conversa no WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M19.1 4.9A9.8 9.8 0 0 0 3.7 16.7L2.5 21.2l4.6-1.2a9.8 9.8 0 0 0 4.7 1.2h.1A9.8 9.8 0 0 0 19.1 4.9Zm-7.2 14.5h-.1a8 8 0 0 1-4.1-1.1l-.3-.2-2.7.7.7-2.6-.2-.3a8 8 0 1 1 6.7 3.5Zm4.4-6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.6.8-.8.9-.3.2-.5.1a6.5 6.5 0 0 1-1.9-1.2 7 7 0 0 1-1.3-1.6c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5s0-.3 0-.5-.6-1.5-.9-2c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.3s-1 1-1 2.3 1 2.7 1.1 2.9 2 3.1 4.9 4.3c.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1 0-.2-.2-.3-.4-.4Z"/>
+      </svg>
+    </button>
+  </body>
+</html>
